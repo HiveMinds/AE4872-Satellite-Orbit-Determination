@@ -185,7 +185,7 @@ Filling in the numbers yields:
 \end{equation}
 
 \subsubsection{covariance $P_{x}$}
-You can compute the covariance matrix of a single vector $\bar{x}$ with $n=3$ dimensions as:
+You can compute the covariance of a single vector $\bar{x}$ with $n=3$ dimensions as:
 \begin{equation}
     P_x=
     \begin{bmatrix}
@@ -196,11 +196,25 @@ You can compute the covariance matrix of a single vector $\bar{x}$ with $n=3$ di
 \end{equation}
 Where
 \begin{enumerate}
-    \item $\sigma_{1,1}$= $E[(X_1)-E[X_1])(X_1)-E[X_1])]=\frac{}{}$ \cite{covariance_matrix}
+    \item $\sigma_{1,1}$= $E[(X_1)-E[X_1])(X_1)-E[X_1])]$ \cite{covariance_matrix}
 \end{enumerate}
-\subsubsection{covariance $P_{xy}$}
-To compute the covariance matrix of a vector $X$ with $n$ entries you first must compute the 
+\textbf{    \begin{itemize}
+        \item \textbf{Question:} How do you fill that in for a single vector? What is $\sigma_11$?
+        \item \textbf{Answer:}
+    \end{itemize}}
+According to \cite{covariance_stack} the covariance of a single vector can also be computed with:
+\begin{equation}
+	cov(\bar{x},\bar{y})=\frac{1}{n-1}\sum_{i=1}^{i=n}(x_i-\mu_x)(y_i-\mu_y)
+\end{equation}
 
+\subsubsection{covariance $P_{xy}$}
+According to \cite{covariance_stack} To compute the covariance-variance matrix, of a vector $X$ with $n$ entries you use the covariance of the vectors (a scalar) in the following equation:
+\begin{equation}
+	\begin{bmatrix}
+		{\sigma_x}^2 & cov(x,y)\\
+		cov(x,y) & {\sigma_y}^2\\
+	\end{bmatrix}
+\end{equation}
 
 
 \newpage
