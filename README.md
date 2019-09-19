@@ -19,14 +19,16 @@ To change (a copy of) this summary after you have installed TexMaker:
   
   1. Make sure you have opened `Main.tex` and not `someChapterOrOther.tex` and click the triangle meaning "Run/compile". That exports the PDF to your/this directory.
   
-  ![1](./HowToUseTexMaker/3.png)
+  
   2. Click `Options>Define current document as "Master Document"`.
   ![1](./HowToUseTexMaker/master_document.png)
   
-  3. If you have selected `PDFLatex` and `View PDF`
+  3. Selected `PDFLatex` and `View PDF` (see next pic)
+  
   4. Press `f6` to compile the pdf. (left triangle in pic below)
   
-  4. Press `f7` to preview the pdf in the right half of your screen. (Right triangle in pic below)
+  ![1](./HowToUseTexMaker/3.png)
+  5. Press `f7` to preview the pdf in the right half of your screen. (Right triangle in pic below)
   ![1](./HowToUseTexMaker/4.png)
 
 If you are having troubles with any of the above steps/don't know how you do any of that, feel free to click on: "issue" and type your question :)
