@@ -1,6 +1,11 @@
-# AE4872-Satellite-Orbit-Determination
-Summaries for the course.
+# AE4872-Satellite-Orbit-Determination Content:
 
+1. The complete course planning. (It automatically compiles a pdf with the planning, and more importantly, it automatically generates all the taskwarrior commands to add your tasks to your tasklist (taskwarrior).)
+2. Summaries for the course (a bit funky).
+3. Old exam solutions, please contribute with your solutions! (just git clone, type your solution in the latex and send me a pull request.)
+
+
+# How to use
 0. You can git clone this repository or fork it
 1. You can edit and compile the pdf's in this repository with TexMaker (OpenSource):https://www.xm1math.net/texmaker/download.html
 2. And then send a pull request after you have pushed your changes. 
@@ -21,5 +26,3 @@ To change (a copy of) this summary after you have installed TexMaker:
   ![1](./HowToUseTexMaker/4.png)
 
 If you are having troubles with any of the above steps/don't know how you do any of that, feel free to click on: "issue" and type your question :)
-
-This repo currently contains summaries and explanations about correlation and covariance.
