@@ -173,9 +173,9 @@ Now the correlation between $\bar{x}$ and $\bar{y}$ can be computed with:
 \begin{equation}
     \rho_{xy}=\frac{E[(X-E(Y))(Y-E(Y))]}{\sqrt{E{[{(X-E(Y))}^2E[{(Y-E(Y))}^2]}}}=\frac{\sigma_{xy}}{\sigma_x\sigma_y}=
 \end{equation}
-Where $\sigma_{xy}=\mu_{xy}=\frac{\mu_x+\mu_y}{2}$ because $\mu_{xy}$ means the expected value of $\mu_x$ and $\mu_y$. So:
+Where $\sigma_{xy}=covariance(\bar{x},\bar{y})$  So:
 \begin{equation}
-    \rho_{xy}=\frac{E[(X-E(Y))(Y-E(Y))]}{\sqrt{E{[{(X-E(Y))}^2E[{(Y-E(Y))}^2]}}}=\frac{\sigma_{xy}}{\sigma_x\sigma_y}=\frac{\mu_{xy}}{\sigma_x\sigma_y}=\frac{\frac{\mu_x+\mu_y}{2}}{\sigma_x\sigma_y}
+    \rho_{xy}=\frac{E[(X-E(Y))(Y-E(Y))]}{\sqrt{E{[{(X-E(Y))}^2E[{(Y-E(Y))}^2]}}}=\frac{\sigma_{xy}}{\sigma_x\sigma_y}=\frac{\mu_{xy}}{\sigma_x\sigma_y}=\frac{covariance(\bar{x},\bar{y})}{\sigma_x\sigma_y}
 \end{equation}
 From this equation you can derive that the correlation should always be $-1\leq \rho_{xy} \leq 1$
 
