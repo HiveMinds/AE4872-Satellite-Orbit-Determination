@@ -28,7 +28,9 @@ To change (a copy of) this summary after you have installed TexMaker:
   4. Press `f6` to compile the pdf. (left triangle in pic below)
   
   ![1](./HowToUseTexMaker/3.png)
+  
   5. Press `f7` to preview the pdf in the right half of your screen. (Right triangle in pic below)
+  
   ![1](./HowToUseTexMaker/4.png)
 
 If you are having troubles with any of the above steps/don't know how you do any of that, feel free to click on: "issue" and type your question :)
