@@ -33,7 +33,7 @@ To change (a copy of) this summary after you have installed TexMaker:
   
   ![1](./HowToUseTexMaker/4.png)
   
-## Configuring Texmaker for convenience##
+## Configuring Texmaker for convenience ##
 Normally you can switch between your tabs/files with `Alt+PageDown` and `Alt+PageUp`. However if you also have FLux installed on windows, those shortcuts are already mapped to reducing the blue content in your screen. The shortcuts wont work in that case. To switch between screens fast with your keyboard:
 
   7. Click Options.
@@ -49,4 +49,7 @@ Normally you can switch between your tabs/files with `Alt+PageDown` and `Alt+Pag
   ![1](./HowToUseTexMaker/6.png)
   
   11. Then do the same for the `Previous Document`
+
+
+
 If you are having troubles with any of the above steps/don't know how you do any of that, feel free to click on: "issue" and type your question :)
