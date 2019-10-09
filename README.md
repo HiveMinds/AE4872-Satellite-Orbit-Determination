@@ -25,6 +25,8 @@ To change (a copy of) this summary after you have installed TexMaker:
   
   3. Selected `PDFLatex` and `View PDF` (see next pic)
   
+  3.a Press `f2`,`f11` to compile the bibliography, followed by `f2` to include the bibliography in the report. Then:
+  
   4. Press `f6` to compile the pdf. (left triangle in pic below)
   
   ![1](./HowToUseTexMaker/3.png)
