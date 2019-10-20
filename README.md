@@ -2,8 +2,7 @@
 
 1. The complete course planning. (It automatically compiles a pdf with the planning, and more importantly, it automatically generates all the taskwarrior commands to add your tasks to your tasklist (taskwarrior).)
 2. Summaries for the course (a bit funky).
-3. Old exam solutions, please contribute with your solutions! (just git clone, type your solution in the latex and send me a pull request.)
-
+3. Old exam solutions templates, the actual solutions are in a private repo shared with collaborators.
 
 # How to use
 0. You can git clone this repository or fork it
