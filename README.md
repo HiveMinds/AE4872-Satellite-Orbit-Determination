@@ -5,11 +5,11 @@
 3. Old exam solutions templates, the actual solutions are in a private repo shared with collaborators.
 
 # How to use
-0. You can git clone this repository or fork it
+0. You can git clone this repository
 1. You can edit and compile the pdf's in this repository with TexMaker (OpenSource):https://www.xm1math.net/texmaker/download.html
-2. And then send a pull request after you have pushed your changes. 
+2. And then send a pull request after you have pushed your changes. After inspection of your pull request (and acceptance), you will be made collaborator in the private repo, to re-do your pull request which will be accepted. This will grant you access to all the exam solutions generated collectively! 
 
-To change (a copy of) this summary after you have installed TexMaker:
+To change (a copy of) this a latex exam solution template after you have installed TexMaker:
   0. Open Main.tex file in TexMaker:
   
   ![1](./HowToUseTexMaker/1.png)
