@@ -24,11 +24,11 @@ Exact steps:
 ![1](./HowToUseTexMaker/addYourself/2.jpeg)
 2. Copy the link to clone the repo
 ![1](./HowToUseTexMaker/addYourself/3.jpeg)
-3.Ensure you installed github and that it works, then open the software.
+3.Ensure you installed github and that it works, then open the software.(Go to: desktop.github.com) 
 ![1](./HowToUseTexMaker/addYourself/4.jpeg)
 4. click add>CLONE repository.
 ![1](./HowToUseTexMaker/addYourself/8.jpeg)
-5. Copy the git clone link you copied in step 2. and paste it in, then click add repository
+5. Copy the git clone link you copied in step 2. and paste it in, then click add repository (If you get "ssh error" please click the refresh button in the github gui software again, untill the github gui software/program shows your fork of the course repository, then click that repository and clone.)
 6. Probably takes you to the next screen, tab url, (else enter the copied git clone link again) and press clone.
 ![1](./HowToUseTexMaker/addYourself/7.jpeg)
 8. Then open the cloned repository on your pc, 
