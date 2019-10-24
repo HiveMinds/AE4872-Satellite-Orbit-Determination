@@ -1,8 +1,7 @@
-# AE4872-Satellite-Orbit-Determination Content:
+# AE4870A-Rocket-Motion Content:
 
 1. The complete course planning. (It automatically compiles a pdf with the planning, and more importantly, it automatically generates all the taskwarrior commands to add your tasks to your tasklist (taskwarrior).)
-2. Summaries for the course (a bit funky).
-3. Old exam solutions templates, the actual solutions are in a private repo shared with collaborators.
+2. Old exam solutions templates, the actual solutions are in a private repo shared with collaborators.test
 
 # Add yourself as collaborator.
 Short: 
@@ -65,7 +64,13 @@ Thats it, now make an exam solution in the latex template, and send me a pull re
 
 # How to use
 0. You can git clone this repository
-1. You can edit and compile the pdf's in this repository with TexMaker (OpenSource):https://www.xm1math.net/texmaker/download.html
+1. You can edit pdf's in this repository with TexMaker (OpenSource):https://www.xm1math.net/texmaker/download.html
+2. You can compile/create the pdf's in this repository by telling TexMaker to use MikTex (OpenSource): https://download.cnet.com/MiKTeX-64-bit/3000-18483_4-75851644.html
+Or:
+https://miktex.org/download
+https://miktex.org/howto/install-miktex
+3. Or just do it in overleaf (Skip to step `7.b` and `7.c`)
+
 2. And then send a pull request after you have pushed your changes. After inspection of your pull request (and acceptance), you will be made collaborator in the private repo, to re-do your pull request which will be accepted. This will grant you access to all the exam solutions generated collectively! 
 
 To change (a copy of) this a latex exam solution template after you have installed TexMaker:
@@ -92,6 +97,15 @@ To change (a copy of) this a latex exam solution template after you have install
   5. Press `f7` to preview the pdf in the right half of your screen. (Right triangle in pic below)
   
   ![1](./HowToUseTexMaker/4.png)
+  
+  6. If you get error saying: "no logfile" or anything else, it's most likely becuase you havent installed "the compiler". So latex is just some kind of computer language, Texworks is an editor for files of that language, and Miktex (also open source) is a compiler. So you can already edit your tex files, but to also build the pdf, install miktex and tell texworks where it can find your miktex `.exe` file (via `Options`> ?compiler? ..). Actually you have 3 options to create your latex solution:
+  
+   7.a  Install miktex, (F did that already) AND link the target destination of miktex in texworks.
+  
+   7.b Import your forked repository to overleaf (get a temporary free trial acount with ggr.la mail.
+  
+   7.c Import your forked repository to overleaf by pressing: menu>new>import zip file> put your 2010-xx-yy folder Content into a zip, and click import. Then you can just work in overleaf.
+
   
 ## Configuring Texmaker for convenience ##
 Normally you can switch between your tabs/files with `Alt+PageDown` and `Alt+PageUp`. However if you also have FLux installed on windows, those shortcuts are already mapped to reducing the blue content in your screen. The shortcuts wont work in that case. To switch between screens fast with your keyboard:
