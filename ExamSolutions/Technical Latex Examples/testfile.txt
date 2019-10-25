@@ -1,8 +1,0 @@
-2: parameter 1
-435345
-4: parameter 2
-435
-6: parameter 3
-3.143
-8: parameter 4
-34536
