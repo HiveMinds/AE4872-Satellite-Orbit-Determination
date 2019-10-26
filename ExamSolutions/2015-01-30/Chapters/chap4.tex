@@ -1,1 +1,78 @@
-\section{ kalman filter and orbit det:Kalman Filter }\label{sec:q4}    
+\section{Part: Kalman Filter }\label{sec:q4}    
+
+\subsection{}
+The general procedure of Kalman Filter is composed of the following steps:
+\begin{enumerate}
+	\item Setting up nitial condition
+	\item Propagation of state vector
+	\item Propagation of state covariance matrix
+	\item Calculating Kalman gain
+	\item Update of model (estimated state vector according to actual model)
+	\item Updating error covariance matrix
+\end{enumerate}
+
+\subsection{}
+
+By definition:
+\begin{center}
+	$A = \dfrac{\partial (\frac{\partial \bar{u})}{\partial t}}{\partial \bar{u}}$
+\end{center}
+and
+\begin{center}
+	$\Phi = \dfrac{\partial \bar{u}}{\partial t}$ , $\dot{\Phi} = \dfrac{\partial \Phi}{\partial t}$
+\end{center}
+Hence
+\begin{center}
+	$A \Phi = \dfrac{\partial (\frac{\partial \bar{u})}{\partial t}}{\partial \bar{u}} \dfrac{\partial \bar{u}}{\partial t} = \dfrac{\partial^2 \bar{u}}{\partial t^2} = \dfrac{\partial \Phi}{\partial t} = \dot{\Phi}$
+\end{center}
+
+
+\subsection{}
+\begin{center}
+	$A =  \begin{bmatrix}
+	         0 & 0 & 0 & 1 & 0 & 0 \\[6pt]
+	         0 & 0 & 0 & 0 & 1 & 0 \\[6pt]
+	         0 & 0 & 0 & 0 & 0 & 1 \\[6pt]
+	         \dfrac{-\mu}{r^3}+\dfrac{3\mu}{r^5}x^2 & \dfrac{3\mu xy}{r^5} & \dfrac{3\mu xz}{r^5} & 0 & 0 & 0 \\[6pt]
+	         \dfrac{3\mu xy}{r^5} & \dfrac{-\mu}{r^3}+\dfrac{3\mu}{r^5}y^2 & \dfrac{3\mu xz}{r^5} & 0 & 0 & 0 \\[6pt]
+	         \dfrac{3\mu zx}{r^5} & \dfrac{3\mu zy}{r^5} & \dfrac{-\mu}{r^3}+\dfrac{3\mu}{r^5}z^2 & 0 & 0 & 0 \\[6pt]
+	    
+	    \end{bmatrix}$
+\end{center}
+Therefore, answering to the question:
+\begin{center}
+	$A =  \begin{bmatrix}
+	         0 & 0 & 0 & 1 & 0 & 0 \\[6pt]
+	         0 & 0 & 0 & 0 & 1 & 0 \\[6pt]
+	         0 & 0 & 0 & 0 & 0 & 1 \\[6pt]
+	         non-zero & non-zero & non-zero & 0 & 0 & 0 \\[6pt]
+	        non-zero & non-zero & non-zero & 0 & 0 & 0 \\[6pt]
+	        non-zero & non-zero & non-zero & 0 & 0 & 0 \\[6pt]
+	    
+	    \end{bmatrix}$
+\end{center}
+
+\subsection{}
+In order to represent said noise increase in the KF, proper changes need to be made to the noise matrix, namely:
+\begin{center}
+	$R_{yy} (t=2nd \: day) = 2^2 R_{yy} (t =2nd \: day)_{predicted} $
+\end{center}
+due to the fact that
+\begin{center}
+	$(2\sigma)^2 = 2^2 \sigma$
+\end{center}
+
+\subsection{}
+To counteract this phenomenon, more weight needs to be put on observations. It might be done by increasing scaling factor accompanying matrix R, namely the $\lambda$ in
+\begin{matrix}
+	$R_{more\:weights} = \lambda R$
+\end{matrix}
+
+\subsection{}
+Tracking Venus Express might have delivered data regarding atmospheric properties of Venus, solar wind characteristics in the Vicinity of Venus as well as would've allowed for technology presentation and experiments regarding tracking or navigation techniques.
+
+
+
+
+
+
