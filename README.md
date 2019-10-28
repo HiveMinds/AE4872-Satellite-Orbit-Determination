@@ -44,7 +44,7 @@ Exact steps:
 ![1](./HowToUseTexMaker/addYourself/14.jpeg)
 14. git pull/ git fetch before you push, forgot screenshot.
 ![1](./HowToUseTexMaker/addYourself/15.png)
-15. Then after saving your xlsm and closing it, pres git push
+15. Then after saving your xlsm and closing it, press git push (If you get auth error, you probably cloned my repository instead of your fork/copy of my repository {You are trying to push to my public repository while you're not a collaborator in that, hence you don't have the authentication to push  to it}.  Please go back to step 1 and try again.)
 ![1](./HowToUseTexMaker/addYourself/16.jpeg)
 16.  Then in your ownforked/copied  repository/github of this course click"new pull request"
 ![1](./HowToUseTexMaker/addYourself/17.jpeg)
@@ -58,7 +58,9 @@ Exact steps:
 20.And then merge your pull request to my/the main repo.
 
 ![1](./HowToUseTexMaker/addYourself/21me.jpeg)
-Thats it, now make an exam solution in the latex template, push to your own fork again and then:
+
+21. Thats it, now make an exam solution in the latex template, push to your own fork again and then:
+
 22. Now click settings in your fork of this repository
 
 ![1](./HowToUseTexMaker/inviteCollab/a.png)
@@ -67,7 +69,7 @@ Thats it, now make an exam solution in the latex template, push to your own fork
 
 ![1](./HowToUseTexMaker/inviteCollab/b.png)
 
-24. Scroll all the way down (Right into the danger zone, Kenny Rogers would be proud). Make sure you have a github pro account with your academic licence. Then click "Make private".
+24. Scroll all the way down (Right into the danger zone, Kenny Loggins would be proud). Make sure you have a github pro account with your academic licence. Then click "Make private".
 
 
 ![1](./HowToUseTexMaker/inviteCollab/c.png)
