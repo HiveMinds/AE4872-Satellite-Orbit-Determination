@@ -3,6 +3,11 @@
 1. The complete course planning. (It automatically compiles a pdf with the planning, and more importantly, it automatically generates all the taskwarrior commands to add your tasks to your tasklist (taskwarrior).)
 2. Old exam solutions templates, the actual solutions are in a private repo shared with collaborators.test
 
+Below are 3 explenations:
+ 0. How to add yourself as collaborator to the list.
+ 1. How to request a review of your solution
+ 2. How to use Texworks for off-line latex editing (You can also just import to overleaf if you want.)
+
 # Add yourself as collaborator.
 Short: 
 0. git- fork, 
@@ -59,9 +64,13 @@ Exact steps:
 
 ![1](./HowToUseTexMaker/addYourself/21me.jpeg)
 
-21. Thats it, now make an exam solution in the latex template, push to your own fork again and then:
+21. Thats it, now make an exam solution in the latex template.
 
-22. Now click settings in your fork of this repository
+## Request review of your solution
+
+22.a First make sure you have the latex files and a compiled pdf in the folder `examSolutions/<exam date>` of your local copy of your personal fork/copy of my public repository. Then open your browser, browse to your fork of my public repository.
+
+22.b Now click settings in your fork of this repository
 
 ![1](./HowToUseTexMaker/inviteCollab/a.png)
 
